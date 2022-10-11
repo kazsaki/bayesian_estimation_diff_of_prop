@@ -104,8 +104,8 @@ function calc_BE() {
   /*mean of posterior distributions*/
   let mean_A0 = jStat.mean(x_A);
   let mean_B0 = jStat.mean(x_B);
-  let mean_A = Math.round (mean_A0 * 1000) / 1000;
-  let mean_B = Math.round (mean_B0 * 1000) / 1000;
+  let mean_A = Math.round (mean_A0 * 1000000) / 1000000;
+  let mean_B = Math.round (mean_B0 * 1000000) / 1000000;
 
 /*    let result_mean_A = document.getElementById("result_mean_A");
     let result_mean_B = document.getElementById("result_mean_B");
