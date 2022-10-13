@@ -1,1 +1,1 @@
-# bayesian_for_diff_of_prop_on_2groups
+# bayesian_for_doff_of_prop_on_2groups
